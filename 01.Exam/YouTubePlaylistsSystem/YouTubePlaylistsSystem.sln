@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{CD80771D-067F-42B6-8D83-5EAEC75B93DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{4CCF81F3-08EF-4C0C-ACD8-3B1A7558A6DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{FB0CAB6C-8785-4AAA-818B-54860273EA7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTubePlaylistsSystem.Data", "Data\YouTubePlaylistsSystem.Data\YouTubePlaylistsSystem.Data.csproj", "{3B4BDB53-1754-400B-BDF4-F73FE3549E0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTubePlaylistsSystem.Data.Models", "Data\YouTubePlaylistsSystem.Data.Models\YouTubePlaylistsSystem.Data.Models.csproj", "{E30C0B34-4D08-4AAF-80C8-BBF1341EDCB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTubePlaylistsSystem.Web.App", "Web\YouTubePlaylistsSystem.Web.App\YouTubePlaylistsSystem.Web.App.csproj", "{E5A422D4-2166-4C23-99F6-D3380B9407AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTubePlaylistsSystem.Web.Common", "Web\YouTubePlaylistsSystem.Web.Common\YouTubePlaylistsSystem.Web.Common.csproj", "{9B8140D7-9E2B-4466-AA22-9A55D2E03CA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTubePlaylistsSystem.Common", "YouTubePlaylistsSystem.Common\YouTubePlaylistsSystem.Common.csproj", "{109640AE-7BE2-4AF5-8E82-6B19870311F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTubePlaylistsSystem.Services.Data", "Services\YouTubePlaylistsSystem.Services.Data\YouTubePlaylistsSystem.Services.Data.csproj", "{C6D3F876-0D3F-4D43-917E-8150FC6D4F22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B4BDB53-1754-400B-BDF4-F73FE3549E0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B4BDB53-1754-400B-BDF4-F73FE3549E0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B4BDB53-1754-400B-BDF4-F73FE3549E0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B4BDB53-1754-400B-BDF4-F73FE3549E0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E30C0B34-4D08-4AAF-80C8-BBF1341EDCB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E30C0B34-4D08-4AAF-80C8-BBF1341EDCB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E30C0B34-4D08-4AAF-80C8-BBF1341EDCB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E30C0B34-4D08-4AAF-80C8-BBF1341EDCB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5A422D4-2166-4C23-99F6-D3380B9407AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5A422D4-2166-4C23-99F6-D3380B9407AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5A422D4-2166-4C23-99F6-D3380B9407AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5A422D4-2166-4C23-99F6-D3380B9407AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B8140D7-9E2B-4466-AA22-9A55D2E03CA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B8140D7-9E2B-4466-AA22-9A55D2E03CA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B8140D7-9E2B-4466-AA22-9A55D2E03CA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B8140D7-9E2B-4466-AA22-9A55D2E03CA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{109640AE-7BE2-4AF5-8E82-6B19870311F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{109640AE-7BE2-4AF5-8E82-6B19870311F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{109640AE-7BE2-4AF5-8E82-6B19870311F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{109640AE-7BE2-4AF5-8E82-6B19870311F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6D3F876-0D3F-4D43-917E-8150FC6D4F22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6D3F876-0D3F-4D43-917E-8150FC6D4F22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6D3F876-0D3F-4D43-917E-8150FC6D4F22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6D3F876-0D3F-4D43-917E-8150FC6D4F22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3B4BDB53-1754-400B-BDF4-F73FE3549E0C} = {4CCF81F3-08EF-4C0C-ACD8-3B1A7558A6DC}
+		{E30C0B34-4D08-4AAF-80C8-BBF1341EDCB6} = {4CCF81F3-08EF-4C0C-ACD8-3B1A7558A6DC}
+		{E5A422D4-2166-4C23-99F6-D3380B9407AF} = {CD80771D-067F-42B6-8D83-5EAEC75B93DA}
+		{9B8140D7-9E2B-4466-AA22-9A55D2E03CA4} = {CD80771D-067F-42B6-8D83-5EAEC75B93DA}
+		{C6D3F876-0D3F-4D43-917E-8150FC6D4F22} = {FB0CAB6C-8785-4AAA-818B-54860273EA7C}
+	EndGlobalSection
+EndGlobal
